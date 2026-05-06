@@ -3,5 +3,12 @@
   "name": "tanstack-start-app",
   "compatibility_date": "2025-09-24",
   "compatibility_flags": ["nodejs_compat"],
-  "main": "@tanstack/react-start/server-entry"
+  "main": "@tanstack/react-start/server-entry",
+  "vars": {
+    "VITE_SUPABASE_URL": "https://wpigxivivhctfrnnmzqy.supabase.co",
+    "SUPABASE_URL": "https://wpigxivivhctfrnnmzqy.supabase.co",
+    "VITE_SUPABASE_PUBLISHABLE_KEY": "sb_publishable_xhkmFNIgsdBts64Gk1sqnw_3uefNnVo",
+    "SUPABASE_PUBLISHABLE_KEY": "sb_publishable_xhkmFNIgsdBts64Gk1sqnw_3uefNnVo",
+    "SUPABASE_SERVICE_ROLE_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6IndwaWd4aXZpdmhjdGZybm5tenF5Iiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc3ODA1MjgyNywiZXhwIjoyMDkzNjI4ODI3fQ.OItwsh8Wt_1-JCa87dApu1I7Rm60CbFVk_0nUdpMfQc"
+  }
 }
